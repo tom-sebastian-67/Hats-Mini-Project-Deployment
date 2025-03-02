@@ -60,7 +60,7 @@ function Exampage() {
     var data = null;
     async function getExamDetails() {
       const response = await axios.get(
-        `http://localhost:3000/exam?examId=${examId}`
+        `https://hats-mini-project-deployment-production.up.railway.app/exam?examId=${examId}`
       );
       //console.log(response.data);
       data = response.data;

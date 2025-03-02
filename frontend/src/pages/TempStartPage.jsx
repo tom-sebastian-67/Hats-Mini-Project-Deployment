@@ -28,7 +28,7 @@ const TempStartPage = () => {
         setLoading(true);
         //get exam headers from backend
         async function getHeaders() {
-            const response = await axios.get('http://localhost:3000/exam-header');
+            const response = await axios.get('https://hats-mini-project-deployment-production.up.railway.app/exam-header');
             console.log(response.data.data);
             setExamHeaders(response.data.data);
             setLoading(false);
