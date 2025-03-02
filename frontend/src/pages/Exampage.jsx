@@ -8,7 +8,7 @@ import { useSelector, useDispatch } from "react-redux";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 
-import Codeflowanim from "../components/animation/codeflowanim";
+import Codeflowanim from "../components/animation/Codeflowanim";
 
 function Exampage() {
   const dispatch = useDispatch();
